@@ -1,9 +1,7 @@
 <h2>Datagrid</h2>
 <p>Monta automagicamente tabulação usando dados de array ou resource id</p>
 
-...
-'''php
-
+<pre>
 <?php 
     $cabecalho = ['Modelo','Ano','Marca','Potencia'];
     $valores = [
@@ -19,5 +17,4 @@
     echo '<h2 class="page-header"> Datagrid usando array  </h2>';
     echo $dg->getDatagrid();      
 ?>
-
-...
+</pre>

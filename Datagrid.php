@@ -9,11 +9,10 @@ class Datagrid {
 	
 	protected $caption_descricao='';		
 	private $colunas=array(),$link_com_parametro=array(),$totalizadores=array(),$array_colunas_valores=array(),$array_colunas=array(),$array_metodos_utilizados=array();
-	private $contador=0,$ordenar=true,$datatables=false,$table_id='dg_table_id',$toggle_hide_collumns,$datatableStyle;
+	private $ordenar=true,$datatables=false,$table_id='dg_table_id',$toggle_hide_collumns,$datatableStyle;
 	private $checkbox=false,$checkboxColuna=false,$checkboxCondicao=[],$checkboxMarca,$checkboxEstado,$checkboxMarcado,$checkboxBotao;
 	private $checkbox_bto_descricao='Confirmar';
 	private $checkbox_bto_css='btn btn-primary',$checkbox_condicao_yes_match,$checkbox_condicao_no_match;
-	//private $checkboxSubmitChecados=false;
 	private $css_class=array('table'=>'table table-striped table-condensed','tr'=>'');
 	public $cdn_jquery=false,$debug=false;
 	public $table_resultados,$csv_resultados,$total_registros;

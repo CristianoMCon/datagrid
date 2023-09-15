@@ -4,6 +4,7 @@
 */
 
 class Database {
+    
     private $pdo,$sql,$bd='mysql',$user='root',$pass='',$host='localhost';
     public $erro=false;
 
