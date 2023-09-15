@@ -3,6 +3,7 @@
 
 ...
 '''php
+
 <?php 
     $cabecalho = ['Modelo','Ano','Marca','Potencia'];
     $valores = [
@@ -18,4 +19,5 @@
     echo '<h2 class="page-header"> Datagrid usando array  </h2>';
     echo $dg->getDatagrid();      
 ?>
+
 ...
