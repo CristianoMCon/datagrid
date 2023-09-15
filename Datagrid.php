@@ -1171,10 +1171,5 @@ $(\"#searchInput\").on('keyup',function(){
             $jo .= '
             <div> <span> Filtrar resultados </span> : <input id="searchInput" placeholder="Digite algo para filtrar" autofocus> </div>';
             return $jo;
-	}
-        
-	/* PENDENTES */		        
-	public function setMonitorados(){}	
-	public function setCamposOmitir(){}
-	 	
+	}	 	
 }
